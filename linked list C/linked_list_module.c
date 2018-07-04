@@ -4,9 +4,9 @@
 // TODO everything else aside from typedef and remove entry 
 // TODO test it
 
-typedef struct node{
+typedef struct node_t{
 	int data;
-	struct node	*next;
+	struct node_t	*next;
 }node_t;
 
 
